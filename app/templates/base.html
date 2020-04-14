@@ -1,0 +1,14 @@
+<html>
+	<head>
+		{% if title %}
+		<title>{{ title }} - Jsite</title>
+		{% else %}
+		<title>Your forgot to pass a tile - Jsite</title>
+		{% endif %}
+	</head>
+	<body>
+		<div>Jsite: <a href="/index">Home</a></div>
+		<hr>
+		{% block content %}{% endblock %}
+	</body>
+</html>
