@@ -1,1 +1,1 @@
-FLASK_APP=jsite.py
+FLASK_APP=app.py

@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-	<h1>Meat for, {{ user.username }} </h1>
+	<h1>Serving: {{ user.username }} </h1>
 	{% for post in posts %}
 	<div><p>{{ post.user.username }} says: <b>{{ post.body }}</b></p></div>
 	{% endfor %}
